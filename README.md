@@ -1,2 +1,2 @@
-# Social Media Image Generator
+# Photo Editor and Generator
 
