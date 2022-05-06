@@ -1,0 +1,49 @@
+.logo-options {
+  position: relative;
+  margin-bottom: 20px;
+  &:before {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    color: #98A0A6;
+    text-transform: uppercase;
+  }
+  &.hl-opt:before {
+    content:'Hide';
+  }
+  &.hl-opt.hide:before {
+    content:'Show';
+  }
+  &.rl-opt:before {
+    content:'Replace';
+  }
+  .hide-logo {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ced7df;
+    border-radius: 5px;
+    background: url('../../images/logo-toggle.png') center no-repeat;
+    cursor: pointer;
+  }
+  .replace-logo {
+    background: url('../../images/logo-replace.png') center no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ced7df;
+    border-radius: 5px;
+    input{
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      font-size: 118px;
+      margin: 0px;
+      padding: 0px;
+      cursor: pointer;
+      opacity: 0;
+    }
+  }
+}

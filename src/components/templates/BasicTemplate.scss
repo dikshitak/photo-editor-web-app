@@ -1,0 +1,74 @@
+.basic-template {
+  .section-wrapper {
+    position: relative;
+  }
+  .content-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .title {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .default-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 10px;
+    background: rgba(0,0,0,0.7);
+    width: 70px;
+    rect {
+      stroke: #fff;
+    }
+    circle {
+      stroke: #fff;
+    }
+    polyline {
+      stroke: #fff;
+    }
+  }
+  .user-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+  }
+}
+.preview .basic-template {
+  .image-wrapper {
+    position: relative;
+    padding-bottom: 100%;
+  }
+  .image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &.facebook .image-wrapper{
+    padding-bottom: 50%;
+  }
+  &.instagram .image-wrapper{
+    padding-bottom: 100%;
+  }
+  &.pinterest .image-wrapper{
+    padding-bottom: 130%;
+  }
+}

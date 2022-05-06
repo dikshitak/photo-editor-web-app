@@ -1,0 +1,37 @@
+.sizes-wrapper {
+  &.images-wrp {
+    display: flex;
+  }
+  .images {
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+    background-color: #F8F8F8;
+    height: 50px;
+    cursor: pointer;
+    &.is-selected {
+      border-color: #168eea;
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        right: -8px;
+        top: -8px;
+        background: url(../../images/active-tick.png) no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  .pinterest {
+    width: 30px;
+    margin-right: 20px;
+  }
+  .instagram {
+    widtH: 50px;
+    margin-right: 20px;
+  }
+  .facebook {
+    width: 80px;
+  }
+}

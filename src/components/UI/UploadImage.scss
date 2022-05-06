@@ -1,0 +1,27 @@
+.upload-image{
+  position: relative;
+  overflow: hidden;
+  input{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 118px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  label {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    height: 45px;
+    line-height: 45px;
+  }
+}

@@ -1,0 +1,33 @@
+.ql-container {
+  font: inherit;
+  .ql-editor {
+    padding: 0;
+    line-height: inherit;
+  }
+}
+
+.ql-bubble {
+  .ql-picker-label {
+    padding: 0 8px;
+  }
+  strong {
+    font-weight: 700;
+  }
+  .ql-tooltip {
+    z-index: 99;
+    padding: 10px;
+    width: 460px!important;
+    font-size: 13px;
+    text-transform: capitalize;
+    .ql-toolbar {
+      text-align: center;
+      .ql-formats {
+        margin: 0 5px;
+        &:first-child {
+          margin: 0;
+        }
+      }
+      
+    }
+  }
+}

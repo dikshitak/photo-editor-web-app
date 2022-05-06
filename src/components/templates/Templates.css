@@ -1,0 +1,6 @@
+.templates-container {
+  width: 320px;
+}
+.templates-container ul li {
+  cursor: pointer;
+}
