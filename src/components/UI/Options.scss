@@ -1,6 +1,26 @@
 .options-container {
   width: 230px;
-  height: 100vh;
-  overflow-y: auto;
-  padding-right: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .options-container {
+    width: 100%;
+  }
+  .options-wrp {
+    display: flex;
+    margin: 0 -5px;
+    .wrp {
+      margin: 0 5px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .options-wrp {
+    display: block;
+    .wrp {
+      margin: 15px 0;
+    }
+  }
+  .justify-evenly {
+    justify-content: flex-start;
+  }
 }

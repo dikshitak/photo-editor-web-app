@@ -14,11 +14,19 @@ const DEFINED_TEMPLATES = {
     logo: 'default'
   },
   'overlay-template': {
-    title: "Ryan Gosling",
-    description:"hello world",
+    title: "Edit your Title here",
+    description:"Edit your Description here",
     image: defaultImg,
-    size: 'instagram',
-    logo: ''
+    size: 'facebook',
+    logo: 'default'
+  },
+  'thumbnail-template': {
+    title: "Edit your Title here",
+    description:"Edit your Description here",
+    image: defaultImg,
+    size: 'facebook',
+    logo: false,
+    number: '01'
   }
 };
 class SocialImageGenerator extends React.Component {

@@ -117,3 +117,9 @@ strong {
 html{scrollbar-color: #68605e #dedede;scrollbar-width: thin;}
 ::-webkit-scrollbar, ::-webkit-scrollbar:horizontal{background: #dedede;width: 7px;height: 3px;}
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:horizontal{background: #68605e;border-radius: 5px;border-left: 1px solid #dedede;}
+
+@media screen and (max-width: 1024px) {
+  .container.flex {
+    flex-direction: column;
+  }
+}

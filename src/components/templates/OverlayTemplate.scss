@@ -10,6 +10,17 @@
   .description {
     font-size: 12px;
   }
+  .logo-content-wrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .default-logo {
+      width: 65px;
+    }
+    .content-wrapper {
+      width: calc(100% - 80px)
+    }
+  }
 }
 .preview .overlay-template {
   .image-wrapper {
@@ -29,9 +40,9 @@
     padding-bottom: 50%;
   }
   &.instagram .image-wrapper{
-    padding-bottom: 100%;
+    padding-bottom: 70%;
   }
   &.pinterest .image-wrapper{
-    padding-bottom: 130%;
+    padding-bottom: 100%;
   }
 }

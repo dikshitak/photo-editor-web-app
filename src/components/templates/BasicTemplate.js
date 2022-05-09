@@ -9,10 +9,10 @@ const BasicTemplate = (props) => {
     <li className={`wrp template-wrapper ${props.classList}`} onClick={props.selectTemplateHandler} data-template={props.id}>
       <div id={props.id} className="section-wrapper">
         <div className="image-wrapper">
-          <img src={props.item.image} className="image"/>
+          <img src={props.item.image} className="image" alt="banner" />
         </div>
         {!props.logoHide && props.item.logo ==='default' && <div className="default-logo"><Logo/></div> }
-        {!props.logoHide && props.item.logo!=='default' && <div className="user-logo"><img src={props.item.logo}/></div> }
+        {!props.logoHide && props.item.logo!=='default' && <div className="user-logo"><img src={props.item.logo} alt="logo"/></div> }
         <div className="content-wrapper">
           <h1 className="title">
             {!props.id.includes('-preview') && parse(`<strong>${props.item.title}</strong>`)}

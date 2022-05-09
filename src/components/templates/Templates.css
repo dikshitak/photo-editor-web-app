@@ -4,3 +4,24 @@
 .templates-container ul li {
   cursor: pointer;
 }
+@media screen and (max-width: 1024px) {
+  .templates-container {
+    width: 100%;
+  }
+  .templates-container ul {
+    display: flex;
+    margin: 0 -5px;
+  }
+  .templates-container ul li { 
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .templates-container ul {
+    display: block;
+    margin: 0 0 15px
+  }
+  .templates-container ul li { 
+    margin: 15px 0;
+  }
+}
