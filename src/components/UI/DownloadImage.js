@@ -1,7 +1,6 @@
 import './DownloadImage.scss';
 import * as htmlToImage from 'html-to-image';
 import * as download from 'downloadjs';
-import { toPng } from 'html-to-image';
 import SectionWrapper from '../SectionWrapper';
 
 const DownloadImage = (props) => {
