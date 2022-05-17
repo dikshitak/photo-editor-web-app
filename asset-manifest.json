@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/photo-editor/static/css/main.6ac60a7e.chunk.css",
+    "main.js": "/photo-editor/static/js/main.bc998564.chunk.js",
+    "main.js.map": "/photo-editor/static/js/main.bc998564.chunk.js.map",
+    "runtime-main.js": "/photo-editor/static/js/runtime-main.0146ec50.js",
+    "runtime-main.js.map": "/photo-editor/static/js/runtime-main.0146ec50.js.map",
+    "static/css/2.231f1418.chunk.css": "/photo-editor/static/css/2.231f1418.chunk.css",
+    "static/js/2.5ee1ebb1.chunk.js": "/photo-editor/static/js/2.5ee1ebb1.chunk.js",
+    "static/js/2.5ee1ebb1.chunk.js.map": "/photo-editor/static/js/2.5ee1ebb1.chunk.js.map",
+    "index.html": "/photo-editor/index.html",
+    "static/css/2.231f1418.chunk.css.map": "/photo-editor/static/css/2.231f1418.chunk.css.map",
+    "static/css/main.6ac60a7e.chunk.css.map": "/photo-editor/static/css/main.6ac60a7e.chunk.css.map",
+    "static/js/2.5ee1ebb1.chunk.js.LICENSE.txt": "/photo-editor/static/js/2.5ee1ebb1.chunk.js.LICENSE.txt",
+    "static/media/Holidays.ab70771b.jpg": "/photo-editor/static/media/Holidays.ab70771b.jpg",
+    "static/media/Ryan-Gosling.bddcafdf.jpg": "/photo-editor/static/media/Ryan-Gosling.bddcafdf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0146ec50.js",
+    "static/css/2.231f1418.chunk.css",
+    "static/js/2.5ee1ebb1.chunk.js",
+    "static/css/main.6ac60a7e.chunk.css",
+    "static/js/main.bc998564.chunk.js"
+  ]
+}
