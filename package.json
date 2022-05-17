@@ -1,7 +1,7 @@
 {
   "name": "photo-editor-web-app",
   "version": "0.1.1",
-  "homepage": "https://dikshitak.github.io/photo-editor/",
+  "homepage": "https://dikshitak.github.io/photo-editor-web-app/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.2",
